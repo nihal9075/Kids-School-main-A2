@@ -93,8 +93,52 @@ main{
     color: rgb(17, 17, 17);
     margin-bottom: 24px;
 }
-.hero-img{
+ 
+/* Curriculum cards */
+.curriculum{
+    margin:60px 0 ;
 }
+.curriculum h2{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 57.5px;
+
+}
+.cards{
+    display: flex;
+    gap: 28px;
+    margin:80px 0;
+}
+.card{
+    padding:55px 40px;
+    text-align: center;
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
+.card h3{
+    color: rgb(32, 32, 32);
+    font-size: 24.52px;
+    font-weight: 700;
+    line-height: 30.65px;
+    margin:32px 0;
+}
+.card p{
+    color: rgb(128, 128, 128);
+    font-size: 15.09px;
+    font-weight: 500;
+    line-height: 28.3px;
+    margin-bottom: 38px;
+}
+#card01{
+    border: 0.94px solid rgb(222, 245, 255);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);}
+#card02{
+    border: 0.94px solid rgb(255, 244, 220);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);}
+#card03{
+    border: 0.94px solid rgb(242, 232, 255);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);}
 
 
 
