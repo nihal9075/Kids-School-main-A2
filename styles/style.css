@@ -139,6 +139,25 @@ main{
 #card03{
     border: 0.94px solid rgb(242, 232, 255);
     background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);}
-
+.card a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.np-slide{
+    display: flex;
+    justify-content:center ;
+    gap: 10px;
+}
+.np-slide button{
+    background-color: orange;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
 
 
