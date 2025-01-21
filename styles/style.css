@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", serif;
+}
+
+/* style for navbar */
+header{
+    padding: 20px 0px 20px 0px;
+    width:1160px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 62px;
+    height: 62px;
+}
+.logo span{
+    font-size:32px;
+    font-weight: bold;
+}
+nav a{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px;
+}
+
+/* colors and buttons */
+.skyblue{
+    color: skyblue;
+}
+.orange{
+    color: orange;
+}
+.contact-btn{
+    height: 50px;
+    width: 197px;
+    color: white;
+    font-weight:600;
+    font-size: 20px;
+    background-color: orange;
+    border-radius: 12px;
+    border: none;
+
+}
+.btn{
+
+}
